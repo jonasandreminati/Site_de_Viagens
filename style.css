@@ -1,0 +1,184 @@
+body, html{
+    height: 100%;
+    margin: 0%;
+    padding: 0px;
+    background:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.capa,.img1,.img2,.img3, .img4,.img5{
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.capa{
+    background-image: url(imgs/img-capa.jpg);
+    background-repeat: no-repeat;
+    opacity: 80%;
+}
+.img1{
+    background-image:url(imgs/img-veados.jpg);
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url(imgs/img-praia.jpg);
+    background-repeat: no-repeat;
+}
+.img3{
+    background-image: url(imgs/histirico-capa.jpg);
+    background-repeat: no-repeat;
+}       
+.img4{
+    background-image: url(imgs/img-montanha.jpg);
+    background-repeat: no-repeat;
+}        
+.img5{
+    background-image: url(imgs/oriente-capa.jpg);
+    background-repeat: no-repeat;
+}
+.conteudo{
+    text-align: center;
+}
+
+.titulo-box{
+    position:absolute;
+    width: 100%;
+    top:45%;
+    text-align: center;
+  
+}
+.titulo-box a{
+    background-color: black;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    text-decoration:none;
+}
+.titulo-box a:hover{
+    background-color: rgb(140, 140, 140);
+    transition:0.4s;
+}
+.titulo-capa{
+    position:absolute;
+    width: 100%;
+    top:53%;
+    text-align: center;
+}
+.link-saibamais{
+    color: rgb(24, 24, 175);
+    text-decoration: none;
+}
+.link-saibamais:hover{
+    color: red;
+}
+.titulo-capa span{
+    background-color: black;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+p{
+    padding: 20px;
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.final{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*codigos das viajens*/
+
+/*viajem 1*/
+.corpo-viajem{
+    margin:2%;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.carousel-item{
+    overflow: hidden;
+    height: 100%;
+    width: auto;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.links-cabeça{
+    margin:20px;
+    margin-left: 40px;
+    padding: 5px;
+    color: white;
+    float: left;
+    font-weight: bold;
+}
+.links-cabeça a{
+    text-decoration: none;
+    color: white;
+}
+.links-cabeça a:hover{
+    color: rgb(176, 173, 173);
+}
+header{
+    background-color: black;
+}
+.lista-passeios{
+    margin:5px;
+    list-style-type: none;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.espaco-roteiro{
+    margin:2%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+/*viajem 2 */
+.espaco-roteiro2{
+    margin:2%;
+}
+.col img{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*Viagem 3*/
+.espaco-roteiro3{
+    margin:2%;
+    margin-top:7%;
+    text-align: center;
+}
+
+/*viajem 4 */
+
+.btn-descubra{
+    margin:10px;
+    padding: 15px;
+    color:white;
+    background-color: black;
+    font-weight: bold;
+}
+.img-embreve{
+    width: 100%;
+    height: 100%;
+}
